@@ -1,0 +1,174 @@
+{
+  "branches": [
+    {
+      "_id": "branch-venpakkam",
+      "name": "Venpakkam Branch (Clinic)",
+      "address": "12 Main Road, Venpakkam, TN",
+      "phone": "044-23456789",
+      "bedCount": 2,
+      "isActive": true
+    },
+    {
+      "_id": "branch-kalavai",
+      "name": "Kalavai Branch (Clinic)",
+      "address": "45 Bazaar Street, Kalavai, TN",
+      "phone": "04172-234567",
+      "bedCount": 2,
+      "isActive": true
+    }
+  ],
+  "users": [
+    {
+      "_id": "user-radhakrishnan",
+      "name": "Dr. Radhakrishnan",
+      "username": "radhakrishnan",
+      "passwordHash": "$2b$10$wJpvZXFaAP3HVXTsQy9TnOMRirsTJcw.61hNm0UrPB7qSag5nRSMi",
+      "role": "owner",
+      "branchId": "all",
+      "isActive": true,
+      "createdAt": "2026-06-30T08:48:17.642Z"
+    },
+    {
+      "_id": "user-prasad",
+      "name": "Dr. R.K. Prasad",
+      "username": "prasad",
+      "passwordHash": "$2b$10$VgR7hFMbAjLoBuRf8xv1meQHTsNz9q3OZz/pK.M/OS2aBPDLFTInG",
+      "role": "doctor",
+      "branchId": "branch-venpakkam",
+      "isActive": true,
+      "createdAt": "2026-06-30T08:48:17.712Z"
+    },
+    {
+      "_id": "user-priya",
+      "name": "Priya",
+      "username": "priya",
+      "passwordHash": "$2b$10$jZIAxdaw/4tiNqGJTsDEFeKJPbpaPf7cphB3X.7XTBLnd3zW047Bu",
+      "role": "receptionist",
+      "branchId": "branch-venpakkam",
+      "isActive": true,
+      "createdAt": "2026-06-30T08:48:17.783Z"
+    },
+    {
+      "_id": "user-sarah",
+      "name": "Sarah",
+      "username": "sarah",
+      "passwordHash": "$2b$10$rkM3zGqpY7DR1bfI9buAiOEx4dENQ/e4ST/f7LB67DHDmNYOAst4q",
+      "role": "receptionist",
+      "branchId": "branch-kalavai",
+      "isActive": true,
+      "createdAt": "2026-06-30T08:48:17.854Z"
+    }
+  ],
+  "services": [
+    {
+      "_id": "svc-rct",
+      "name": "Root Canal Treatment",
+      "category": "Endodontics",
+      "defaultRate": 4500,
+      "taxPercent": 18,
+      "isActive": true
+    },
+    {
+      "_id": "svc-scaling",
+      "name": "Scaling & Polishing",
+      "category": "Preventative",
+      "defaultRate": 1200,
+      "taxPercent": 18,
+      "isActive": true
+    },
+    {
+      "_id": "svc-extraction",
+      "name": "Tooth Extraction",
+      "category": "Surgery",
+      "defaultRate": 1500,
+      "taxPercent": 18,
+      "isActive": true
+    },
+    {
+      "_id": "svc-filling",
+      "name": "Composite Filling",
+      "category": "Restorative",
+      "defaultRate": 1800,
+      "taxPercent": 18,
+      "isActive": true
+    },
+    {
+      "_id": "svc-crown",
+      "name": "Dental Crown (Ceramic)",
+      "category": "Prosthodontics",
+      "defaultRate": 6000,
+      "taxPercent": 18,
+      "isActive": true
+    }
+  ],
+  "beds": [
+    {
+      "_id": "bed-v1",
+      "branchId": "branch-venpakkam",
+      "bedNumber": 1,
+      "label": "Bed 1 (Venpakkam)",
+      "status": "available",
+      "currentPatientId": null,
+      "assignedAt": null
+    },
+    {
+      "_id": "bed-v2",
+      "branchId": "branch-venpakkam",
+      "bedNumber": 2,
+      "label": "Bed 2 (Venpakkam)",
+      "status": "available",
+      "currentPatientId": null,
+      "assignedAt": null
+    },
+    {
+      "_id": "bed-v3",
+      "branchId": "branch-venpakkam",
+      "bedNumber": 3,
+      "label": "Bed 3 (Venpakkam)",
+      "status": "available",
+      "currentPatientId": null,
+      "assignedAt": null
+    },
+    {
+      "_id": "bed-k1",
+      "branchId": "branch-kalavai",
+      "bedNumber": 1,
+      "label": "Bed 1 (Kalavai)",
+      "status": "available",
+      "currentPatientId": null,
+      "assignedAt": null
+    },
+    {
+      "_id": "bed-k2",
+      "branchId": "branch-kalavai",
+      "bedNumber": 2,
+      "label": "Bed 2 (Kalavai)",
+      "status": "available",
+      "currentPatientId": null,
+      "assignedAt": null
+    },
+    {
+      "_id": "bed-k3",
+      "branchId": "branch-kalavai",
+      "bedNumber": 3,
+      "label": "Bed 3 (Kalavai)",
+      "status": "available",
+      "currentPatientId": null,
+      "assignedAt": null
+    }
+  ],
+  "patients": [],
+  "appointments": [],
+  "tokens": [],
+  "consultations": [],
+  "treatments": [],
+  "prescriptions": [],
+  "xrays": [],
+  "bills": [],
+  "payments": [],
+  "followups": [],
+  "auditlogs": [],
+  "dentalCharts": [],
+  "toothHistories": [],
+  "patientReports": []
+}
